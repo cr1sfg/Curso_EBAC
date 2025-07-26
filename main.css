@@ -7,11 +7,6 @@ body {
 header {
     display: block;
     margin-bottom: 40px;
-    text-align: center;
-}
-
-form {
-    text-align: center;
 }
 
 input,
