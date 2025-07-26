@@ -1,0 +1,27 @@
+body {
+    background-color: #f7f4f4;
+    width: 100%;
+    max-width: 960px;
+}
+
+header {
+    display: block;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+input,
+button {
+    padding: 10px;
+    margin: 0 5px;
+    justify-content: center;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+}
