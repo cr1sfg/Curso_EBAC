@@ -1,0 +1,21 @@
+input,
+button {
+    margin-bottom: 5px;
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input {
+    padding: 5px;
+}
+
+button {
+    cursor: pointer;
+    background-color: rgb(204, 212, 210);
+    border: none;
+    padding: 7px;
+}
+
+button:hover {
+    background-color: rgb(138, 143, 141);
+}
