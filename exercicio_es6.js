@@ -1,24 +1,15 @@
 //Cria um array de objetos, onde teremos como atributos do objeto: o nome e a nota de alunos;
 //Criar uma função que irá retornar apenas os alunos que tiveram a nota maior ou igual à 6;
 
-class Notas {
-    constructor(nomeAluno, notaAluno) {
-        this.aluno = nomeAluno;
-        this.nota = notaAluno;
-    }
+const alunos = [
+    { nome: "Diego", nota: 5 },
+    { nome: "Alessandra", nota: 10 },
+    { nome: "Gian", nota: 7 },
+    { nome: "Luana", nota: 4 },
+    { nome: "Maria", nota: 8 }
+];
 
-    mediaAluno() {
-        if (this.nota >= 6) {
-            return console.log(`${this.aluno} sua nota foi ${this.nota}`)
-        } else {
-            console.log(`${this.aluno} sua nota foi abaixo de 6`)
-        }
-    }
-}
+// Função que retorna apenas alunos com nota >= 6
+const alunosAprovados = alunos.filter(aluno => aluno.nota >= 6);
 
-
-const notaDiego = new Notas("Diego", 5);
-notaDiego.mediaAluno();
-
-const notaAlessandra = new Notas("Alessandra", 10);
-notaAlessandra.mediaAluno();
+console.log(alunosAprovados);
